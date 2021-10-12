@@ -1,0 +1,83 @@
+<IfDefine !IS_puredata_LOADED>
+  Define IS_puredata_LOADED
+  WSGIDaemonProcess puredata python-home=/home/puredatalite/puredata/myenv python-path=/home/puredatalite/puredata/
+</IfDefine>
+<VirtualHost 127.0.0.1:8000 _default_:80>
+  ServerAlias *
+  ServerName puredatalite.digitowork.com www.puredatalite.digitowork.com
+  SSLEngine on
+  SSLCertificateFile "/etc/ssl/puredatalitecerts/ec88023edb13087d.crt"
+  SSLCertificateKeyFile "/etc/ssl/puredatalitecerts/server.key"
+  WSGIProcessGroup puredata
+  Alias /static/ /home/puredatalite/puredata/static/
+  <Directory /home/puredatalite/puredata/static>
+    Require all granted
+  </Directory>
+  WSGIScriptAlias / /home/puredatalite/puredata/applink/wsgi.py
+  <Directory /home/puredatalite/puredata/applink>
+    <Files wsgi.py>
+      Require all granted
+    </Files>
+  </Directory>
+</VirtualHost>
+
+puredatalite-app.conf
+<Directory "/home/puredatalite/puredata/">
+    Options +MultiViews
+    AllowOverride None
+    <IfVersion < 2.3 >
+    Order allow,deny
+    Allow from all
+    </IfVersion>
+    <IfVersion >= 2.3>
+    Require all granted
+    </IfVersion>
+</Directory>
+
+puredatalite.conf
+<VirtualHost unix:/home/puredatalite/puredata/puredatalite.sock *:80>
+  ServerName puredatalite.digitowork.com
+  DocumentRoot "/home/puredatalite/puredata/"
+  Include "/opt/bitnami/apache2/conf/bitnami/puredatalite-prefix.conf"
+</VirtualHost>
+
+<VirtualHost unix:/home/puredatalite/puredata/puredatalite.sock *:443>
+  ServerName myapp.example.com
+  DocumentRoot "/home/puredatalite/puredata"
+  SSLEngine on
+  SSLCertificateFile "/etc/ssl/puredatalitecerts/ec88023edb13087d.crt"
+  SSLCertificateKeyFile "/etc/ssl/puredatalitecerts/server.key"
+  Include "/opt/bitnami/apache2/conf/bitnami/puredatalite-prefix.conf"
+</VirtualHost>
+Include "/opt/bitnami/apache2/conf/bitnami/bitnami-apps-vhosts.conf"
+puredatalite-prefix.conf
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/(.*) https://%{SERVER_NAME}/$1 [R,L]
+Alias /static/ "/home/puredatalite/puredata/static"
+Alias /static "home/puredatalite/puredata/static"
+
+
+puredata-http-vhost.conf
+<IfDefine !IS_puredata_LOADED>
+  Define IS_puredata_LOADED
+  WSGIDaemonProcess puredata python-home=/home/puredatalite/puredata/myenv pyth$
+</IfDefine>
+<VirtualHost 127.0.0.1:8000 _default_:80>
+  ServerAlias *
+  ServerName puredatalite.digitowork.com www.puredatalite.digitowork.com
+  SSLEngine on
+  SSLCertificateFile "/etc/ssl/puredatalitecerts/ec88023edb13087d.crt"
+  SSLCertificateKeyFile "/etc/ssl/puredatalitecerts/server.key"
+  WSGIProcessGroup puredata
+  Alias /static/ /home/puredatalite/puredata/static/
+  <Directory /home/puredatalite/puredata/static>
+    Require all granted
+  </Directory>
+  WSGIScriptAlias / /home/puredatalite/puredata/applink/wsgi.py
+  <Directory /home/puredatalite/puredata/applink>
+    <Files wsgi.py>
+      Require all granted
+</Files>
+</Directory>
+</VirtualHost>

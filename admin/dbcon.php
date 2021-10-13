@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "digitoworkweb";
-$password = "SJWuRb0!j2;H";
+$username = "root";
+$password = "n2kPsUd7cWxy";
 $dbname = "digitoworkweb";
 
 // Create connection

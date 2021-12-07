@@ -53,7 +53,10 @@ $result = mysqli_query($con, $sql) or die("Bad Insert:$sql");
                                     <td><?php echo $row['heading']; ?></td>
                                   
                                   
-                                    <td><a href="blog_edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary"><i class="fa fa-edit"></i> Edit/Add Details</a></td>
+                                    <td><a href="blog_edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary"><i class="fa fa-edit"></i> Edit/Add Details</a>
+                                    <a href="blogdelete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger"onclick="return confirm('Are you sure you want to delete?')"><i class="fa fa-delete"></i>Delete</a>
+                                    
+                                    </td>
 
 
 

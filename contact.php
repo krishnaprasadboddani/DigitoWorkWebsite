@@ -45,7 +45,7 @@
                            </ul>
                            <ul class="social-icon-two">
                                <li class="follow">Follow us on : </li>
-                               
+                               <li><a href="https://www.youtube.com/channel/UCaORXUUvEp5sm_dnRd9CGww"><span class="fa fa-youtube btn btn-danger"></span></a></li>
                                <li><a href="#"><span class="fa fa-linkedin btn btn-info"></span></a></li>
                            </ul>
                        </div>

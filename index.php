@@ -4,7 +4,7 @@
 
 echo $url=$_SERVER['REQUEST_URI'];
 $URL=explode('/',$url);
-print_r($URL);
+
 $level1=$URL[1];
 $level2=$URL[2];
 $level3=$URL[3];

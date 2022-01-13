@@ -4,7 +4,7 @@
    <!--Page Title-->
    <section class="page-title" style="background-image:url(images/background/2.jpg)">
        <div class="auto-container">
-           <h4 style="text-align:center;color:white"><span>Methodology</span> serves as the “way” to systematically realize change in terms of time, cost and quality
+           <h4 style="text-align:center;color:white">Execution for Reliable Delivery
            </h4>
            <!-- <ul class="page-breadcrumb">
             	<li><a href="index.html">HOME</a></li>

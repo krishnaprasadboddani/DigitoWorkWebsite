@@ -12,8 +12,8 @@
 
     include('dbcon.php');
 $id=$_GET['id'];
-
-    $result = mysqli_query($con, "SELECT * FROM bloger where id='$id'");
+$id=$level1;
+    $result = mysqli_query($con, "SELECT * FROM bloger where url='$id'");
     $row = mysqli_fetch_assoc($result);
    
 
@@ -27,7 +27,7 @@ $id=$_GET['id'];
            <div class="card" >
                 
                   <div class="card-body">
-                 <h4 class="card-title text-center"><?php  echo $row['heading']; ?></h4>
+                 <h2 class="card-title text-center"><?php  echo $row['heading']; ?></h2>
 
                   <p><?php echo htmlspecialchars_decode( $row['description'], ENT_QUOTES); ?></p>
                 <b>Posted By:<?php  echo $row['email']; ?> </b>
@@ -54,7 +54,7 @@ $result = mysqli_query($con, "SELECT * FROM bloger ORDER BY id DESC");
  while ($row1 = mysqli_fetch_assoc($result)) { ?>
 
 
-                  <li><i class="fa fa-arrow-circle-right"></i> <a href="blogview.php?id=<?php echo $row1['id']; ?>" style="color:#000"><?php  echo $row1['heading']; ?></a></li>
+                  <li><i class="fa fa-arrow-circle-right"></i> <a href="<?php echo $row['url']; ?>; ?>" style="color:#000"><?php  echo $row1['heading']; ?></a></li>
                     <?php } ?>
                  </ul>
 

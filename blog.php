@@ -27,7 +27,7 @@ $result = mysqli_query($con, "SELECT * FROM bloger ORDER BY id DESC");
            <div class="card" >
                 <a href="blogview.php?id=<?php echo $row['id']; ?>"><img src="admin/blog/<?php  echo $row['image']; ?>" class="card-img-top" alt="..." style="width:400px; height:250px"></a>
                   <div class="card-body">
-                 <h5 class="card-title text-center"><a href="blogview.php?id=<?php echo $row['id']; ?>"><?php  echo $row['heading']; ?></a></h5>
+                 <h5 class="card-title text-center"><a href="<?php echo $row['url']; ?>"><?php  echo $row['heading']; ?></a></h5>
                 
             </div>
           </div>

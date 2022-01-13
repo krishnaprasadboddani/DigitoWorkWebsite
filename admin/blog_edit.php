@@ -111,6 +111,18 @@ $row = mysqli_fetch_assoc($rs);
                                        <input type="email" name="email" requiredplaceholder="Email" value="<?php echo $row['email']; ?>">
                                        
                                     </div>
+                                     <div class="form-group">
+                                        <h6>SEO Title</h6>
+                                        <textarea class="form-control" name="seo_title" rows="3"><?php echo $row['seo_title']; ?> </textarea>
+
+                                    </div>
+                                    
+                                       <div class="form-group">
+                                        <h6>SEO Description</h6>
+                                        <textarea class="form-control" name="seo_description" rows="3"> <?php echo $row['seo_description']; ?></textarea>
+
+                                    </div>
+
                                     <hr class="my-4">
                                     <input type="submit" name="submit" Value="Submit" class="btn btn-gradient-blue2 btn-rounded btn-fix">
 

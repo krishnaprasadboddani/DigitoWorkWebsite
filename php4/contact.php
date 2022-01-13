@@ -18,7 +18,7 @@ if(isset($_POST['submit']))
  * ------------------------------------
  */
  
-$to    = "careers@digitowork.com"; // <--- Your email ID here 
+$to    = "svrao.vasu@gmail.com"; // <--- Your email ID here 
 
 $server_email = 'careers@digitowork.com';  // Your server email to authenticate outgoing emails. eg: name@yourdomain.com
 
@@ -93,7 +93,7 @@ if($result)
         
     <script>
           alert('Form Send Successfully');
-          window.open('../index.php','_self');
+          window.open('../home.php','_self');
           </script>
     <?php
     }

@@ -34,8 +34,8 @@ $upload_dir = 'blog/'; // upload directory
 $description=htmlspecialchars($description, ENT_QUOTES);
 move_uploaded_file($tmp_dir,$upload_dir.$img);
 /*$sql_qry="INSERT INTO `bloger`(`crdate`,`heading`) VALUES ('$heading')";*/
-$sql = "INSERT INTO `bloger`(`crdate`,`heading`,`description`,`image`, `email`)
-VALUES ('$date','$heading','$description','$img', '$email')";
+$sql = "INSERT INTO `bloger`(`crdate`,`heading`,`description`,`image`, `email`, `seo_title`, `seo_description`)
+VALUES ('$date','$heading','$description','$img', '$email', '$seo_title', '$seo_description')";
 
 
 $res=mysqli_query($con, $sql);
@@ -103,6 +103,18 @@ subject </p>";
 
                                        <input type="email" name="email" requiredplaceholder="Email">
                                        
+                                    </div>
+                                    
+                                       <div class="form-group">
+                                        <h6>SEO Title</h6>
+                                        <textarea class="form-control" name="seo_title" rows="3"> </textarea>
+
+                                    </div>
+                                    
+                                       <div class="form-group">
+                                        <h6>SEO Description</h6>
+                                        <textarea class="form-control" name="seo_description" rows="3"> </textarea>
+
                                     </div>
                                   
                                     <hr class="my-4">

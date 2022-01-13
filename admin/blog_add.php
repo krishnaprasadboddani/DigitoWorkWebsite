@@ -28,14 +28,15 @@ if(isset($_POST['submit']))
 {
 extract($_POST);
  $date=date('y-m-d');
+    $url=str_replace(' ', '-', $heading),
   $img =rand().$_FILES['f_image']['name'];
 $tmp_dir = $_FILES['f_image']['tmp_name'];
 $upload_dir = 'blog/'; // upload directory
 $description=htmlspecialchars($description, ENT_QUOTES);
 move_uploaded_file($tmp_dir,$upload_dir.$img);
 /*$sql_qry="INSERT INTO `bloger`(`crdate`,`heading`) VALUES ('$heading')";*/
-$sql = "INSERT INTO `bloger`(`crdate`,`heading`,`description`,`image`, `email`, `seo_title`, `seo_description`)
-VALUES ('$date','$heading','$description','$img', '$email', '$seo_title', '$seo_description')";
+$sql = "INSERT INTO `bloger`(`crdate`,`heading`,`description`,`image`, `email`, `url`)
+VALUES ('$date','$heading','$description','$img', '$email', '$url')"
 
 
 $res=mysqli_query($con, $sql);

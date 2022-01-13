@@ -174,7 +174,7 @@ if($result == 1)
      
     ?>
     <script type='text/javascript'>alert('Successfully...!');
-    window.location.href='../career.php'</script>
+    window.location.href='../career'</script>
     <?php
     }
     else

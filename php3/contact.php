@@ -92,7 +92,7 @@ if($result)
         
     <script>
           alert('Request Sent Successfully. We will revert soon. Thank You.');
-          window.open('../index.php','_self');
+          window.open('../home.php','_self');
           </script>
     <?php
     }

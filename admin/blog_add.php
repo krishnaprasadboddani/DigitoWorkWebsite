@@ -105,17 +105,9 @@ subject </p>";
                                        
                                     </div>
                                     
-                                       <div class="form-group">
-                                        <h6>SEO Title</h6>
-                                        <textarea class="form-control" name="seo_title" rows="3"> </textarea>
-
-                                    </div>
+                                   
                                     
-                                       <div class="form-group">
-                                        <h6>SEO Description</h6>
-                                        <textarea class="form-control" name="seo_description" rows="3"> </textarea>
-
-                                    </div>
+                                       
                                   
                                     <hr class="my-4">
                                     <input type="submit" name="submit" Value="Submit" class="btn btn-gradient-blue2 btn-rounded btn-fix">

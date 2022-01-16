@@ -1,6 +1,5 @@
 <?php 
 
-//print_r($_SERVER);
 
 echo $url=$_SERVER['REQUEST_URI'];
 $URL=explode('/',$url);

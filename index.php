@@ -1,7 +1,7 @@
 <?php 
 
 
-echo $url=$_SERVER['REQUEST_URI'];
+ $url=$_SERVER['REQUEST_URI'];
 $URL=explode('/',$url);
 
 $level1=$URL[1];

@@ -10,6 +10,9 @@ $level3=$URL[3];
 $level4=$URL[4];
 if($level1){
     $page= $level1.".php";
+ if($level1=='admin'){
+  header('Location: https://digitowork.com/admin/index.php');
+ }
    if(file_exists($page)){
     include($page);
    }else{

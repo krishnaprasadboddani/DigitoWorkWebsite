@@ -52,7 +52,7 @@
                    </div>
                    <div class="column col-lg-5 col-md-6 col-sm-12">
                        </p>
-                       <img src="images/<?php echo $row['image1']; ?>">
+                       <img src="images/methodology.jpg">
 
                    </div>
                    <br />

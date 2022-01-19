@@ -28,7 +28,7 @@ if(isset($_POST['submit']))
 {
 extract($_POST);
  $date=date('y-m-d');
-    $url=str_replace(' ', '-', $heading),
+    $url=str_replace(' ', '-', $heading);
   $img =rand().$_FILES['f_image']['name'];
 $tmp_dir = $_FILES['f_image']['tmp_name'];
 $upload_dir = 'blog/'; // upload directory

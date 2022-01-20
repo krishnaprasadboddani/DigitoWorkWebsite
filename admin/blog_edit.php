@@ -29,7 +29,7 @@ $url=str_replace(' ', '-', $heading),
 
 $description=htmlspecialchars($description, ENT_QUOTES);
 $id=$_GET['id'];
-$sql_update="update bloger set heading='$heading', description='$description', email='$email', url='$url where id = '$id' ";
+$sql_update="update bloger set heading='$heading', description='$description', email='$email', url='$url' where id = '$id' ";
 // print_r($sql_update);
         $update = mysqli_query($con, $sql_update);
 

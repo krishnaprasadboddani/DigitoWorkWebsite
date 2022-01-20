@@ -25,7 +25,7 @@ include('dbcon.php');
 if(isset($_POST['submit']))
 {
 extract($_POST);
-$url=str_replace(' ', '-', $heading),
+$url=str_replace(' ', '-', $heading);
 
 $description=htmlspecialchars($description, ENT_QUOTES);
 $id=$_GET['id'];

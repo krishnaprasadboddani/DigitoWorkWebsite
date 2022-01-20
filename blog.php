@@ -25,7 +25,7 @@ $result = mysqli_query($con, "SELECT * FROM bloger ORDER BY id DESC");
             <?php while ($row = mysqli_fetch_assoc($result)) { ?>
         <div class="col-md-4">
            <div class="card" >
-                <a href="blogview.php?id=<?php echo $row['id']; ?>"><img src="admin/blog/<?php  echo $row['image']; ?>" class="card-img-top" alt="..." style="width:400px; height:250px"></a>
+                <a href="<?php echo $row['url']; ?>"><img src="admin/blog/<?php  echo $row['image']; ?>" class="card-img-top" alt="..." style="width:400px; height:250px"></a>
                   <div class="card-body">
                  <h5 class="card-title text-center"><a href="<?php echo $row['url']; ?>"><?php  echo $row['heading']; ?></a></h5>
                 

@@ -54,7 +54,7 @@ $result = mysqli_query($con, "SELECT * FROM bloger ORDER BY id DESC");
  while ($row1 = mysqli_fetch_assoc($result)) { ?>
 
 
-                  <li><i class="fa fa-arrow-circle-right"></i> <a href="<?php echo $row['url']; ?>; ?>" style="color:#000"><?php  echo $row1['heading']; ?></a></li>
+                  <li><i class="fa fa-arrow-circle-right"></i> <a href="<?php echo $row1['url']; ?>; ?>" style="color:#000"><?php  echo $row1['heading']; ?></a></li>
                     <?php } ?>
                  </ul>
 

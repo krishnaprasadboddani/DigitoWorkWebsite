@@ -414,4 +414,485 @@ Protect and secure data - Digital transformation sharpens the focus on data prot
     </section>
 
    -->
+   
+   <div id="getsitecontrol">
+   <style>/* stylelint-disable */@font-face{font-family:emoji;src:local('Apple Color Emoji'),local('Android Emoji'),local('Segoe UI'),local(EmojiSymbols),local(Symbola);
+  /* Emoji unicode blocks */unicode-range:U+1F300-1F5FF,U+1F600-1F64F,U+1F680-1F6FF,U+2600-26FF}@media print{#getsitecontrol{display:none!important}}#getsitecontrol{all:initial!important;contain:style size!important;direction:ltr!important;margin:0!important;padding:0!important;border:0!important;box-sizing:border-box!important;box-shadow:none!important;background-clip:padding-box!important;line-height:1.2!important;vertical-align:middle!important;text-align:left!important;font-weight:normal!important;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif!important;font-style:normal!important;letter-spacing:normal!important;text-shadow:none!important;text-transform:none!important;float:none!important;z-index:2147483635!important;-webkit-font-smoothing:subpixel-antialiased!important;-webkit-tap-highlight-color:rgba(0,0,0,0)!important;filter:none!important}#getsitecontrol *,
+#getsitecontrol *:before,
+#getsitecontrol *:after{box-sizing:inherit!important}#getsitecontrol span,
+#getsitecontrol a,
+#getsitecontrol form,
+#getsitecontrol label,
+#getsitecontrol div,
+#getsitecontrol u,
+#getsitecontrol i,
+#getsitecontrol em,
+#getsitecontrol b,
+#getsitecontrol strong,
+#getsitecontrol p,
+#getsitecontrol h1,
+#getsitecontrol ul,
+#getsitecontrol ol,
+#getsitecontrol li,
+#getsitecontrol img{margin:0!important;padding:0!important;border:0!important;border-radius:0!important;vertical-align:baseline!important;
+  /*text-align: left;*/width:auto!important;height:auto!important;min-width:auto!important;min-height:auto!important;max-width:none!important;max-height:none!important;text-shadow:none!important;box-shadow:none!important;font-family:inherit!important;line-height:inherit!important;letter-spacing:normal!important;color:inherit!important;background-color:transparent!important;position:static!important;font-size:inherit!important;font-weight:inherit!important;font-style:inherit!important;text-transform:inherit!important;text-decoration:inherit!important;text-align:inherit!important;float:none!important;outline:none!important;-webkit-tap-highlight-color:rgba(0,0,0,0)!important}#getsitecontrol a,
+#getsitecontrol a:focus,
+#getsitecontrol a:active{-webkit-tap-highlight-color:rgba(0,0,0,0)!important;text-decoration:none!important}#getsitecontrol img{display:block!important}#getsitecontrol .getsitecontrol-html{vertical-align:baseline!important;line-height:1.35!important}#getsitecontrol .getsitecontrol-html b,
+#getsitecontrol .getsitecontrol-html strong{font-weight:bold!important}#getsitecontrol .getsitecontrol-html i,
+#getsitecontrol .getsitecontrol-html em{font-style:italic!important}#getsitecontrol .getsitecontrol-html u{text-decoration:underline!important}#getsitecontrol .getsitecontrol-html p{margin:0 0 8px 0!important}#getsitecontrol .getsitecontrol-html a{text-decoration:underline!important}#getsitecontrol .getsitecontrol-html.getsitecontrol-html-inline{display:inline!important;white-space:nowrap!important;margin:0!important;padding:0!important}#getsitecontrol .getsitecontrol-html.getsitecontrol-html-inline *{white-space:nowrap!important;display:inline!important;margin:0!important;padding:0!important}#getsitecontrol ::-webkit-input-placeholder{color:inherit!important;text-overflow:ellipsis!important;opacity:1;overflow:hidden!important;white-space:nowrap!important;vertical-align:middle!important;font-size:inherit!important;text-align:inherit!important;font-weight:normal!important;position:static!important}#getsitecontrol :-moz-placeholder,
+#getsitecontrol ::-moz-placeholder{color:inherit!important;text-overflow:ellipsis!important;opacity:1;overflow:hidden!important;white-space:nowrap!important;vertical-align:middle!important;font-size:inherit!important;text-align:inherit!important;font-weight:normal!important;position:static!important}#getsitecontrol input:-ms-input-placeholder{color:inherit!important;text-overflow:ellipsis!important;opacity:1;overflow:hidden!important;white-space:nowrap!important;vertical-align:middle!important;font-size:inherit!important;text-align:inherit!important;font-weight:normal!important;position:static!important}#getsitecontrol [placeholder]{text-overflow:ellipsis!important}#getsitecontrol input::-moz-placeholder,
+#getsitecontrol input:-moz-placeholder,
+#getsitecontrol input:-ms-input-placeholder{text-overflow:ellipsis!important}#getsitecontrol input,
+#getsitecontrol button{-webkit-appearance:none!important;appearance:none!important}#getsitecontrol input,
+#getsitecontrol input:focus,
+#getsitecontrol textarea,
+#getsitecontrol textarea:focus,
+#getsitecontrol select,
+#getsitecontrol select:focus{margin:0!important;padding:0!important;border:0!important;text-align:left!important;border-radius:0!important;background:none!important;vertical-align:middle!important;width:auto!important;height:auto!important;min-width:0!important;min-height:0!important;max-width:none!important;max-height:none!important;text-shadow:none!important;box-shadow:none!important;font-family:inherit!important;background-clip:padding-box!important;line-height:1!important;letter-spacing:normal!important;outline:0 none!important;font-size:inherit!important;float:none!important}#getsitecontrol a,
+#getsitecontrol a *,
+#getsitecontrol input[type='submit'],
+#getsitecontrol input[type='button'],
+#getsitecontrol input[type='radio'],
+#getsitecontrol input[type='checkbox'],
+#getsitecontrol select,
+#getsitecontrol button{cursor:pointer!important}#getsitecontrol button,
+#getsitecontrol input[type='submit']{margin:0!important;padding:0!important;border:0!important;background:none!important;width:auto!important;height:auto!important;text-shadow:none!important;box-shadow:none!important;font-family:inherit!important;font-size:inherit!important;line-height:1!important;letter-spacing:normal!important;float:none!important;font-weight:bold!important;outline:initial!important}#getsitecontrol svg{cursor:inherit!important;color:currentColor!important;fill:none!important;stroke:currentcolor!important}#getsitecontrol textarea{line-height:1.2!important;overflow:auto!important;resize:none!important}#getsitecontrol input:-webkit-autofill,
+#getsitecontrol textarea:-webkit-autofill,
+#getsitecontrol select:-webkit-autofill{background-color:transparent!important;-webkit-box-shadow:0 0 0 1000px white inset!important}#getsitecontrol *{filter:none!important}#getsitecontrol label,
+#getsitecontrol button,
+#getsitecontrol button:focus,
+#getsitecontrol button:active,
+#getsitecontrol button:hover,
+#getsitecontrol span,
+#getsitecontrol div,
+#getsitecontrol input,
+#getsitecontrol textarea,
+#getsitecontrol a,
+#getsitecontrol input:focus,
+#getsitecontrol input:active,
+#getsitecontrol textarea:focus,
+#getsitecontrol textarea:active,
+#getsitecontrol a:focus,
+#getsitecontrol a:hover,
+#getsitecontrol a:active{color:inherit!important}#getsitecontrol b{font-weight:bold!important}#getsitecontrol u{text-decoration:underline!important}#getsitecontrol i{font-style:italic!important}</style><div><style>:root{-webkit-text-size-adjust:100%!important}#getsitecontrol #getsitecontrol56507{-webkit-text-size-adjust:100%!important;z-index:2147483635!important;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif!important;font-size:16px!important}#getsitecontrol #getsitecontrol56507{position:fixed!important;width:95%!important;max-width:400px!important;min-height:0!important;left:0!important;right:0!important;bottom:10px!important;margin:0 auto!important}@media screen and (min-width: 960px){#getsitecontrol #getsitecontrol56507{width:95%!important;max-width:400px!important;left:32px!important;right:auto!important;bottom:32px!important;margin:0!important}}#getsitecontrol #getsitecontrol56507 .getsitecontrol-container{position:relative!important;overflow:visible!important;border-radius:8px!important;padding-top:170px!important;padding-right:40px!important;padding-bottom:40px!important;padding-left:40px!important;background-image:none!important;background-repeat:no-repeat!important;background-size:initial!important;background-position:initial!important;background-color:#2b3cb7!important;color:rgba(255,255,255,1)!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-back,
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-close,
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-caret{padding:20px!important;position:absolute!important;z-index:1!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-back{padding-right:10px!important;top:0!important;right:41px!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-close{top:0!important;right:0!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-back +  .getsitecontrol-close{padding-left:10px!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-content{position:relative!important;display:flex!important;flex-direction:column!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-title,
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-description{margin-bottom:20px!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-note{margin-top:20px!important}
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-title{white-space:normal!important;overflow-wrap:break-word!important;word-wrap:break-word!important;word-break:normal!important;color:rgba(255,255,255,1)!important;font-weight:bold!important;cursor:inherit!important}
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-title{font-size:20px!important;line-height:1.4!important}
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-title a{vertical-align:baseline!important;text-decoration:underline!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-description{white-space:normal!important;overflow-wrap:break-word!important;word-wrap:break-word!important;word-break:normal!important;line-height:1.5!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-description a{vertical-align:baseline!important;text-decoration:underline!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-form{display:flex!important;flex-direction:column!important;flex-wrap:nowrap!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-fields{width:100%!important;display:flex!important;flex-direction:column!important;margin-bottom:20px!important}
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-field{width:100%!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-field + .getsitecontrol-field{margin:16px 0 0 0!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-text{width:100%!important;max-width:100%!important;line-height:1.5!important;border:solid 1px transparent!important;padding:11px 15px!important;color:rgba(255,255,255,1)!important;border-radius:4px!important;background:rgba(255,255,255,0.15)!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-text::placeholder{color:rgba(255,255,255,0.5)!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-buttons{display:flex!important;flex-direction:row!important;
+  flex-wrap:wrap!important
+  }#getsitecontrol #getsitecontrol56507 .getsitecontrol-buttons .getsitecontrol-button.getsitecontrol-icon{flex-shrink:0!important;flex-grow:0!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-primary{color:rgba(24,24,24,1)!important;background:rgba(255,255,255,1)!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-primary:hover,
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-primary:focus,
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-primary:active{background:rgba(242,242,242,1)!important;color:rgba(24,24,24,1)!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-button{text-decoration:none!important;display:block!important;border:solid 1px transparent!important;white-space:nowrap!important;outline:0!important;font-family:inherit!important;font-weight:bold!important;border-radius:4px!important;transition:background-color 0.2s ease-out!important;line-height:1.5!important;padding:11px 23px!important;position:relative!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-button > span{display:block!important;word-wrap:normal!important;overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-button > *{min-width:0!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-button::-moz-focus-inner{padding:0!important;border:0!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-button:hover,
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-button:focus,
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-button:active,
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-button:disabled{outline:0!important;text-decoration:none!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-close{color:inherit!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-close::before{display:block!important;content:''!important}#getsitecontrol #getsitecontrol56507 .getsitecontrol-close::before{width:11px!important;height:11px!important;background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="rgba(0,0,0,1)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1.458 1.458l21.084 21.084m0-21.084L1.458 22.542" /></svg>')!important;background-position:center!important;background-repeat:no-repeat!important;transform-origin:center center;transition:transform 300ms,opacity 200ms!important;opacity:0.5}#getsitecontrol #getsitecontrol56507 .getsitecontrol-close:hover::before{opacity:1;transform:rotate(90deg)}@import url('https://fonts.googleapis.com/css?family=Sora:400,700,900&display=swap');
+@keyframes getsitecontrol-getsitecontrol56507-slide-in-bottom {
+	0% {
+    transform: translateY(150%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes getsitecontrol-getsitecontrol56507-slide-out-bottom {
+	0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(150%);
+  }
+}
+@keyframes getsitecontrol-getsitecontrol56507-shake {
+	100% {
+    transform: none;
+  }
+  0%,
+  99% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translateX(-10px);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+  40% {
+    transform: translateX(10px);
+  }
+  80% {
+    transform: translateX(5px);
+  }
+}
+@keyframes getsitecontrol-getsitecontrol56507-sent-backdrop {
+	0%,
+  100% {
+    opacity: 0;
+    background-color: rgba(15, 15, 15, 0);
+  }
+  50%,
+  75% {
+    opacity: 0.6;
+    background-color: #0f0f0f;
+  }
+}
+@keyframes getsitecontrol-getsitecontrol56507-success-icon-scale {
+	0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  75% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.2);
+  }
+}
+@keyframes getsitecontrol-getsitecontrol56507-success-icon-show-path {
+	0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes getsitecontrol-getsitecontrol56507-success-icon-draw-circle {
+	0% {
+    opacity: 1;
+    stroke-dashoffset: 150.72;
+  }
+  25% {
+    opacity: 1;
+    stroke-dashoffset: 75.36;
+  }
+  50% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    opacity: 0;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes getsitecontrol-getsitecontrol56507-success-icon-draw-check {
+	0% {
+    opacity: 1;
+    stroke-dashoffset: 36;
+  }
+  25% {
+    opacity: 1;
+    stroke-dashoffset: 18;
+  }
+  50% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    opacity: 0;
+    stroke-dashoffset: 0;
+  }
+}
+#getsitecontrol #getsitecontrol56507 {
+	left: 0!important ;
+	right: 0!important ;
+	bottom: 10px!important ;
+	margin: 0 auto!important ;
+
+}
+
+@media (min-width: 960px) {
+	#getsitecontrol #getsitecontrol56507 {
+		left: auto!important ;
+	right: 32px!important ;
+	bottom: 32px!important ;
+	margin: 0!important ;
+
+	}
+
+}
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-buttons {
+	flex-flow: column!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-container {
+	font-family: Sora, "Helvetica Neue", Helvetica, Arial, sans-serif!important ;
+	box-shadow: 0 11px 32px -5px rgba(54, 61, 77, 0.15)!important ;
+
+}
+
+@media (min-width: 960px) {
+	#getsitecontrol #getsitecontrol56507 .getsitecontrol-container {
+		box-shadow: 0 10px 24px 0 rgba(54, 61, 77, 0.15)!important ;
+
+	}
+
+}
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-title {
+	font-weight: 900!important ;
+	font-size: 20px!important ;
+	line-height: 1.3333!important ;
+	margin-bottom: 10px!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-description {
+	font-size: 16px!important ;
+	margin-bottom: 24px!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-no-fields .getsitecontrol-form {
+	margin-top: 8px!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-fields {
+	margin-bottom: 32px!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-field + .getsitecontrol-field {
+	margin: 24px 0 0 0!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-field-title {
+	margin: 0 0 12px 0!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-radio .getsitecontrol-field-title, #getsitecontrol #getsitecontrol56507 .getsitecontrol-checkbox .getsitecontrol-field-title {
+	margin: 0 0 16px 0!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-buttons {
+	margin: -6px!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-buttons .getsitecontrol-button {
+	margin: 6px!important ;
+	border-radius: 6px!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-normal, #getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-normal.getsitecontrol-icon {
+	font-weight: normal!important ;
+	background-color: transparent!important ;
+	border-color: rgba(255, 255, 255, 0.1)!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-normal:hover, #getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-normal.getsitecontrol-icon:hover, #getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-normal:focus, #getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-normal.getsitecontrol-icon:focus {
+	border-color: #ffffff!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-secondary, #getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-secondary.getsitecontrol-icon {
+	padding-left: 0!important ;
+	padding-right: 0!important ;
+	color: rgba(255, 255, 255, 0.3)!important ;
+	background-color: transparent!important ;
+	font-weight: normal!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-secondary:hover, #getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-secondary.getsitecontrol-icon:hover, #getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-secondary:focus, #getsitecontrol #getsitecontrol56507 .getsitecontrol-button.getsitecontrol-secondary.getsitecontrol-icon:focus {
+	color: rgba(255, 255, 255, 0.7)!important ;
+	background-color: transparent!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-text, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-textarea, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-select {
+	border: none!important ;
+	border-bottom: solid 1px rgba(255, 255, 255, 0.25)!important ;
+	border-radius: 0!important ;
+	background-color: transparent!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-text::placeholder, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-textarea::placeholder, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-select::placeholder {
+	color: rgba(255, 255, 255, 0.3)!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-text:hover, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-textarea:hover, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-select:hover, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-text:focus, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-textarea:focus, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-select:focus {
+	border-color: rgba(255, 255, 255, 0.7)!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-text {
+	padding: 0 0 11px 0!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-textarea {
+	padding: 0!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-select select {
+	padding: 0 24px 11px 0!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-select:after {
+	top: 8px!important ;
+	transform: none!important ;
+	right: 0!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-check label {
+	margin-bottom: 20px!important ;
+	border-radius: 4px!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-check label span {
+	padding-left: 36px!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-check label span:before {
+	width: 24px!important ;
+	height: 24px!important ;
+	top: 0!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-check label input[type='radio'] + span:before, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-check label input[type='checkbox'] + span:before {
+	background-color: transparent!important ;
+	border: 1px solid rgba(255, 255, 255, 0.25)!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-check label input[type='radio'] + span:after, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-check label input[type='checkbox'] + span:after {
+	left: 4px!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-check label input[type='radio']:checked + span:after, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-check label input[type='checkbox']:checked + span:after {
+	left: 4px!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-check label:hover input[type='radio'] + span:before, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-check label:focus input[type='radio'] + span:before, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-check label:hover input[type='checkbox'] + span:before, #getsitecontrol #getsitecontrol56507 .getsitecontrol-input-check label:focus input[type='checkbox'] + span:before {
+	border-color: #ffffff!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-input-rating label {
+	width: 40px!important ;
+	height: 32px!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-note {
+	margin: 32px 0 0 0!important ;
+	color: rgba(255, 255, 255, 0.3)!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507.getsitecontrol-enter {
+	animation: getsitecontrol-getsitecontrol56507-slide-in-bottom 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94) both!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507.getsitecontrol-leave {
+	animation: getsitecontrol-getsitecontrol56507-slide-out-bottom 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94) both!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-form.getsitecontrol-submit .getsitecontrol-invalid {
+	animation: getsitecontrol-getsitecontrol56507-shake 600ms!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507.getsitecontrol-form-sending .getsitecontrol-content:before {
+	content: ''!important ;
+	display: block!important ;
+	position: absolute!important ;
+	top: 0!important ;
+	right: 0!important ;
+	bottom: 0!important ;
+	left: 0!important ;
+	z-index: 1!important ;
+	animation: getsitecontrol-getsitecontrol56507-sent-backdrop 2s both!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507.getsitecontrol-form-sending .getsitecontrol-content .getsitecontrol-success-icon {
+	display: block!important ;
+	width: 100%!important ;
+	height: 100%!important ;
+	animation: getsitecontrol-getsitecontrol56507-success-icon-scale 1.8s linear both!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507.getsitecontrol-form-sending .getsitecontrol-content .getsitecontrol-success-icon path {
+	animation: getsitecontrol-getsitecontrol56507-success-icon-show-path 1.2s linear both!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507.getsitecontrol-form-sending .getsitecontrol-content .getsitecontrol-success-icon circle {
+	animation: getsitecontrol-getsitecontrol56507-success-icon-draw-circle 1.2s linear both!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507.getsitecontrol-form-sending .getsitecontrol-content .getsitecontrol-success-icon polyline {
+	animation: getsitecontrol-getsitecontrol56507-success-icon-draw-check 1.2s linear both!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-body {
+	overflow: scroll!important ;
+	max-height: 57vh!important ;
+	box-shadow: 0 11px 32px 5px rgba(54, 61, 77, 0.15)!important ;
+
+}
+
+#getsitecontrol #getsitecontrol56507 .getsitecontrol-body::-webkit-scrollbar {
+	width: 0!important ;
+	height: 0!important ;
+
+}
+
+@media screen and (min-width: 960px) {
+	#getsitecontrol #getsitecontrol56507 .getsitecontrol-body {
+		max-height: 53vh!important ;
+
+	}
+
+}
+@media (max-width: calc(960px - 1px)) {
+	#getsitecontrol #getsitecontrol56507 .getsitecontrol-title {
+		font-size: 20px!important ;
+	line-height: 32px!important ;
+
+	}
+
+}</style>
+<div role="dialog" id="getsitecontrol56507" class="getsitecontrol-page-1 getsitecontrol-page-first" style=""><div class="getsitecontrol-container"><div class="getsitecontrol-images"><img src="images/white.png" class="getsitecontrol-image" style="position: absolute !important; object-fit: cover !important; object-position: 50% 100% !important; left: 0px !important; top: 0px !important; width: 100% !important; height: 135px !important;"><img src="images/logo.png" class="getsitecontrol-image" style="position: absolute !important; object-fit: contain !important; object-position: 50% 50% !important; left: 50% !important; transform: translateX(-50%) !important; top: -30px !important; width: 150px !important; height: 118px !important;"></div><div class="getsitecontrol-body"><div class="getsitecontrol-content getsitecontrol-no-label"><h3 class="getsitecontrol-title">Explore how DigitoWork helps to manage End to End IT Asset Management.</h3>
+<form novalidate="" class="getsitecontrol-form getsitecontrol-valid getsitecontrol-pristine" method="post" action="php4/email.php"><div class="getsitecontrol-fields"><div class="getsitecontrol-field getsitecontrol-email getsitecontrol-first getsitecontrol-last getsitecontrol-valid"><input id="email" class="getsitecontrol-input-text" required="" type="email" name="email" placeholder="Enter your email"></div></div><div class="getsitecontrol-buttons"><button type="submit" name="submit" class="getsitecontrol-button getsitecontrol-primary"><span>Submit</span></button></div></form></div></div><button type="button" class="getsitecontrol-close" onclick="displayDate()"></button></div></div></div></div>
+<script>
+function displayDate() {
+ 
+ document.getElementById("getsitecontrol56507").style.display = 'none';
+  
+}  
+</script>
 <?php include 'footer.php'; ?>

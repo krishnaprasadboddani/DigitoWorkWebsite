@@ -22,17 +22,78 @@ $result = mysqli_query($con, "SELECT * FROM videos ORDER BY id DESC");
       <section>
         <div class="container">
         <div class="row mt-5">
-            <?php while ($row = mysqli_fetch_assoc($result)) { ?>
-        <div class="col-md-4">
+                       <div class="col-md-4">
            <div class="card" >
-                <iframe width="350" height="315" src="<?php echo $row['url']; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/fdJKaz62bTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <div class="card-body">
-                 <h5 class="card-title text-center"><a href="#"><?php echo $row['heading']; ?></a></h5>
+                 <h5 class="card-title text-center"><a href="#">ITAM for Merger & Acquisition</a></h5>
                 
             </div>
           </div>
       </div>
-      <?php } ?>
+              <div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/dHhxkne6bmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="#">DigitoWork GRIT - Delivery Excellence</a></h5>
+                
+            </div>
+          </div>
+      </div>
+              <div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/dHhxkne6bmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="#">ITAM Software Reconciliation by Digitowork</a></h5>
+                
+            </div>
+          </div>
+      </div>
+              <div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/T_PAI6RJ0vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="#">ITAM Life Cycle Management</a></h5>
+                
+            </div>
+          </div>
+      </div>
+              <div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/1wFjT-_YyFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="#">DigitoWork IT Software Compliance</a></h5>
+                
+            </div>
+          </div>
+      </div>
+              <div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/t4qXABJBgrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="#">DigitoWork IT Security Management</a></h5>
+                
+            </div>
+          </div>
+      </div>
+              <div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/KdeTRn0dg4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="#">Digitowork ITSM</a></h5>
+                
+            </div>
+          </div>
+      </div>
+              <div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/E6hfPv4X6oA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="#">ITAM Digitowork</a></h5>
+                
+            </div>
+          </div>
+      </div>
       
      
       

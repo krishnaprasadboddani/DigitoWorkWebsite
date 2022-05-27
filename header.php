@@ -200,7 +200,7 @@ DigitoWork offers IT Service Management refers to all the activities involved in
 						<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 							<ul class="navigation clearfix">
 								
-									 <li ><a href="index.php">Home</a>
+									 <li ><a href="home">Home</a>
                                     
                                 </li>
                                 <li ><a href="about">About us</a>

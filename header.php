@@ -147,7 +147,7 @@ DigitoWork offers IT Service Management refers to all the activities involved in
                 <div class="clearfix">
                     
                     <div class="pull-left logo-box">
-                        <div class="logo"><a href="index.php"><img src="images/logo.png" alt="Digitowork" title="" style="height:93px;    margin-bottom: -20px"></a></div>
+                        <div class="logo"><a href="home"><img src="images/logo.png" alt="Digitowork" title="" style="height:93px;    margin-bottom: -20px"></a></div>
                     </div>
                     
                     <div class="pull-right upper-right clearfix">

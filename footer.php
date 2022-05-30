@@ -75,7 +75,7 @@
                <div class="footer-column col-lg-7 col-md-6 col-sm-12">
                  <div class="footer-widget logo-widget">
                   <div class="logo2" style="width:235px;margin-top:45px">
-                     <a href="index.php"><img src="images/digitworklog.jpg" alt="" /></a>
+                     <a href="home"><img src="images/digitworklog.jpg" alt="" /></a>
                    </div>
 
 

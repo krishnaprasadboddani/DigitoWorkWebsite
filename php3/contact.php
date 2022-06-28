@@ -61,7 +61,7 @@ $mail->SMTPAuth   = true;
 $mail->SMTPSecure = 'tls';
 $mail->Host       = 'smtp.gmail.com';
 $mail->Username   = 'digitowork0@gmail.com';
-$mail->Password   = 'Digitowork@123';
+$mail->Password   = 'digitowork@123';
 $mail->Port = 587;
 //Set who the message is to be sent from
 $mail->setFrom($server_email, $name);

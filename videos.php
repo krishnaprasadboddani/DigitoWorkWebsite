@@ -26,7 +26,16 @@ $result = mysqli_query($con, "SELECT * FROM videos ORDER BY id DESC");
            <div class="card" >
                 <iframe width="350" height="315" src="https://www.youtube.com/embed/fdJKaz62bTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <div class="card-body">
-                 <h5 class="card-title text-center"><a href="#">ITAM for Merger & Acquisition</a></h5>
+                 <h5 class="card-title text-center"><a href="https://www.youtube.com/embed/T_PAI6RJ0vs">ITAM for Merger & Acquisition</a></h5>
+                
+            </div>
+          </div>
+      </div>
+              <div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/KB3JR1sU-QI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="https://www.youtube.com/embed/T_PAI6RJ0vs">DigitoWork GRIT - Delivery Excellence</a></h5>
                 
             </div>
           </div>
@@ -35,16 +44,7 @@ $result = mysqli_query($con, "SELECT * FROM videos ORDER BY id DESC");
            <div class="card" >
                 <iframe width="350" height="315" src="https://www.youtube.com/embed/dHhxkne6bmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <div class="card-body">
-                 <h5 class="card-title text-center"><a href="#">DigitoWork GRIT - Delivery Excellence</a></h5>
-                
-            </div>
-          </div>
-      </div>
-              <div class="col-md-4">
-           <div class="card" >
-                <iframe width="350" height="315" src="https://www.youtube.com/embed/dHhxkne6bmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <div class="card-body">
-                 <h5 class="card-title text-center"><a href="#">ITAM Software Reconciliation by Digitowork</a></h5>
+                 <h5 class="card-title text-center"><a href="https://www.youtube.com/embed/T_PAI6RJ0vs">ITAM Software Reconciliation by Digitowork</a></h5>
                 
             </div>
           </div>
@@ -53,7 +53,7 @@ $result = mysqli_query($con, "SELECT * FROM videos ORDER BY id DESC");
            <div class="card" >
                 <iframe width="350" height="315" src="https://www.youtube.com/embed/T_PAI6RJ0vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <div class="card-body">
-                 <h5 class="card-title text-center"><a href="#">ITAM Life Cycle Management</a></h5>
+                 <h5 class="card-title text-center"><a href="https://www.youtube.com/embed/T_PAI6RJ0vs">ITAM Life Cycle Management</a></h5>
                 
             </div>
           </div>
@@ -62,7 +62,7 @@ $result = mysqli_query($con, "SELECT * FROM videos ORDER BY id DESC");
            <div class="card" >
                 <iframe width="350" height="315" src="https://www.youtube.com/embed/1wFjT-_YyFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <div class="card-body">
-                 <h5 class="card-title text-center"><a href="#">DigitoWork IT Software Compliance</a></h5>
+                 <h5 class="card-title text-center"><a href="https://www.youtube.com/embed/1wFjT-_YyFs">DigitoWork IT Software Compliance</a></h5>
                 
             </div>
           </div>
@@ -71,7 +71,7 @@ $result = mysqli_query($con, "SELECT * FROM videos ORDER BY id DESC");
            <div class="card" >
                 <iframe width="350" height="315" src="https://www.youtube.com/embed/t4qXABJBgrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <div class="card-body">
-                 <h5 class="card-title text-center"><a href="#">DigitoWork IT Security Management</a></h5>
+                 <h5 class="card-title text-center"><a href="https://www.youtube.com/embed/t4qXABJBgrU">DigitoWork IT Security Management</a></h5>
                 
             </div>
           </div>
@@ -80,7 +80,7 @@ $result = mysqli_query($con, "SELECT * FROM videos ORDER BY id DESC");
            <div class="card" >
                 <iframe width="350" height="315" src="https://www.youtube.com/embed/KdeTRn0dg4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <div class="card-body">
-                 <h5 class="card-title text-center"><a href="#">Digitowork ITSM</a></h5>
+                 <h5 class="card-title text-center"><a href="https://www.youtube.com/embed/KdeTRn0dg4U">Digitowork ITSM</a></h5>
                 
             </div>
           </div>
@@ -89,12 +89,71 @@ $result = mysqli_query($con, "SELECT * FROM videos ORDER BY id DESC");
            <div class="card" >
                 <iframe width="350" height="315" src="https://www.youtube.com/embed/E6hfPv4X6oA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <div class="card-body">
-                 <h5 class="card-title text-center"><a href="#">ITAM Digitowork</a></h5>
+                 <h5 class="card-title text-center"><a href="https://www.youtube.com/embed/E6hfPv4X6oA">ITAM Digitowork</a></h5>
                 
             </div>
           </div>
       </div>
       
+		<div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/C2VX07IIum4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="https://www.youtube.com/embed/C2VX07IIum4">DigitoWork IT Security Management Vulnerability Assessment & Penetration Testing (VAPT)</a></h5>
+                
+            </div>
+          </div>
+      </div>
+		
+		<div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/C2VX07IIum4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="https://www.youtube.com/embed/C2VX07IIum4">DigitoWork IT Security Management Vulnerability Assessment & Penetration Testing (VAPT)</a></h5>
+                
+            </div>
+          </div>
+      </div>
+		
+	<div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/rpjFuyQy3MU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="https://www.youtube.com/embed/rpjFuyQy3MU">DigitoWork - Cyber Threat Intelligence</a></h5>
+                
+            </div>
+          </div>
+      </div>	
+	
+		<div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/nEizLqCpxDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="https://www.youtube.com/embed/nEizLqCpxDc">DigitoWork Data Loss Prevention</a></h5>
+                
+            </div>
+          </div>
+      </div>	
+		
+		<div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/WLYJUZtqVto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="https://www.youtube.com/embed/WLYJUZtqVto">DigitoWork IT Security Operations Center</a></h5>
+                
+            </div>
+          </div>
+      </div>
+		
+		<div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/P2Y6tleXaSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="https://www.youtube.com/embed/P2Y6tleXaSU">DigitoWork IT Asset Patch Management</a></h5>
+                
+            </div>
+          </div>
+      </div>
      
       
       

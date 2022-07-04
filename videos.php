@@ -22,6 +22,24 @@ $result = mysqli_query($con, "SELECT * FROM videos ORDER BY id DESC");
       <section>
         <div class="container">
         <div class="row mt-5">
+		
+		 <div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/rpjFuyQy3MU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="#">DigitoWork - Cyber Threat Intelligence</a></h5>
+                
+            </div>
+          </div>
+		 <div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/C2VX07IIum4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="#">DigitoWork IT Security Management Vulnerability Assessment & Penetration Testing (VAPT)</a></h5>
+                
+            </div>
+          </div>
+		
                        <div class="col-md-4">
            <div class="card" >
                 <iframe width="350" height="315" src="https://www.youtube.com/embed/fdJKaz62bTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -33,7 +51,7 @@ $result = mysqli_query($con, "SELECT * FROM videos ORDER BY id DESC");
       </div>
               <div class="col-md-4">
            <div class="card" >
-                <iframe width="350" height="315" src="https://www.youtube.com/embed/dHhxkne6bmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/KB3JR1sU-QI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <div class="card-body">
                  <h5 class="card-title text-center"><a href="#">DigitoWork GRIT - Delivery Excellence</a></h5>
                 
@@ -105,7 +123,7 @@ $result = mysqli_query($con, "SELECT * FROM videos ORDER BY id DESC");
       
 
 
-</div>
+</<div>
       </div>
       </section>>
         

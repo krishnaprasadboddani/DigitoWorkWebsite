@@ -22,13 +22,36 @@ $result = mysqli_query($con, "SELECT * FROM videos ORDER BY id DESC");
       <section>
         <div class="container">
         <div class="row mt-5">
-		
+		<div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/P2Y6tleXaSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="#"DigitoWork IT Asset Patch Management</a></h5>
+                 </div>
+            </div>
+		</div>
+		<div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/WLYJUZtqVto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="#">DigitoWork IT Security Operations Center</a></h5>
+                 </div>
+            </div>
+		</div>
+		<div class="col-md-4">
+           <div class="card" >
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/nEizLqCpxDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="card-body">
+                 <h5 class="card-title text-center"><a href="#">DigitoWork Data Loss Prevention</a></h5>
+                 </div>
+            </div>
+		</div>		
 		 <div class="col-md-4">
            <div class="card" >
                 <iframe width="350" height="315" src="https://www.youtube.com/embed/rpjFuyQy3MU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <div class="card-body">
                  <h5 class="card-title text-center"><a href="#">DigitoWork - Cyber Threat Intelligence</a></h5>
-                
+                 </div>
             </div>
           </div>
 		 <div class="col-md-4">
@@ -36,7 +59,7 @@ $result = mysqli_query($con, "SELECT * FROM videos ORDER BY id DESC");
                 <iframe width="350" height="315" src="https://www.youtube.com/embed/C2VX07IIum4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <div class="card-body">
                  <h5 class="card-title text-center"><a href="#">DigitoWork IT Security Management Vulnerability Assessment & Penetration Testing (VAPT)</a></h5>
-                
+                 </div>
             </div>
           </div>
 		
